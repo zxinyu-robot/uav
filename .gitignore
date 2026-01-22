@@ -1,0 +1,7 @@
+build/
+devel/
+*.bag
+*.log
+*.pt
+*.onnx
+__pycache__/

@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nv/Diff-planner/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/nv/Diff-planner/src/realflight_modules/VINS-Fusion-gpu/camera_models/include/**",
+        "/home/nv/Diff-planner/src/diff_planner/plan_manage/include/**",
+        "/home/nv/Diff-planner/src/diff_planner/drone_detect/include/**",
+        "/home/nv/Diff-planner/src/realflight_modules/ekf_pose/include/**",
+        "/home/nv/Diff-planner/src/realflight_modules/faster-lio/include/**",
+        "/home/nv/Diff-planner/src/uav_simulator/mockamap/include/**",
+        "/home/nv/Diff-planner/src/diff_planner/path_searching/include/**",
+        "/home/nv/Diff-planner/src/diff_planner/plan_env/include/**",
+        "/home/nv/Diff-planner/src/Utils/pose_utils/include/**",
+        "/home/nv/Diff-planner/src/Utils/quadrotor_msgs/include/**",
+        "/home/nv/Diff-planner/src/realflight_modules/realsense-ros/realsense-ros/realsense2_camera/include/**",
+        "/home/nv/Diff-planner/src/Utils/selected_points_publisher/include/**",
+        "/home/nv/Diff-planner/src/uav_simulator/so3_control/include/**",
+        "/home/nv/Diff-planner/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/nv/Diff-planner/src/diff_planner/swarm_bridge/include/**",
+        "/home/nv/Diff-planner/src/diff_planner/traj_opt/include/**",
+        "/home/nv/Diff-planner/src/diff_planner/traj_utils/include/**",
+        "/home/nv/Diff-planner/src/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
